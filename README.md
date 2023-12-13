@@ -1,6 +1,9 @@
 # image-processing-service-async
 
-This repository contains an asynchronous image processing service built using Golang, Asynq, Redis, Fiber and Docker Compose for easy deployment. To run the service, follow these steps:
+![background](./assets/background.png)
+
+This repository contains an asynchronous image processing service built using Golang, Asynq, Redis, Fiber and Docker
+Compose for easy deployment. To run the service, follow these steps:
 
 1. Start the service containers using Docker Compose:
    ```bash
