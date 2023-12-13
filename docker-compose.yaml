@@ -1,0 +1,28 @@
+version: "3.9"
+
+services:
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    networks:
+      - image-processing-network
+
+  asynqmon:
+    image: hibiken/asynqmon:latest
+    environment:
+      - REDIS_ADDR=redis:6379
+    ports:
+      - "8080:8080"
+    depends_on:
+      - redis
+    networks:
+      - image-processing-network
+
+networks:
+  image-processing-network:
+
+volumes:
+  redis-data:
