@@ -23,5 +23,4 @@ Compose for easy deployment. To run the service, follow these steps:
 4. Visit Asynqmon on port 8080 to monitor and manage asynchronous tasks.
 
 Note: This is a source code for an article explained
-in
-Medium: https://medium.com/@anqorithm/efficient-image-processing-golang-asynq-redis-and-fiber-for-asynchronous-queue-handling-77d1cc5e75a1
+in Medium: https://medium.com/@anqorithm/efficient-image-processing-golang-asynq-redis-and-fiber-for-asynchronous-queue-handling-77d1cc5e75a1
